@@ -18,8 +18,11 @@ a {
     top: 0px;
     width: 100%;
     background-color: #011627;
-    justify-content: space-evenly;
-    padding: 20px;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    
 }
  
 .nav-link {
@@ -40,7 +43,7 @@ color: #48acff;
 
 #home {
     font-size: 19px;
-
+    margin: 0px 145px;
 }
 
 /* #icona_biblioteca {
@@ -50,7 +53,7 @@ color: #48acff;
 } */
 #biblioteca {
     font-size: 19px;
-
+    margin: 0px 145px;
 }
 
 /* #icona_chi-siamo {
@@ -60,8 +63,8 @@ color: #48acff;
     color:#fdfffc;
 } */
 #chi-siamo {
-    font-size: 16px;
- margin-left: -10px;
+    font-size: 19px;
+ margin: 0px 145px;
 }
 
 /*-----------------------*/
@@ -182,10 +185,8 @@ img.libro {
     #introbiblioteca {
         color: #011627;
         border-top: 2px solid #011627;
- 
     }
  
-
     #FotoBiblioteca{
         margin-left: 0px;
         margin-top: 19px;
@@ -194,40 +195,41 @@ img.libro {
         max-height: 400px;
         max-width: auto;
         margin-bottom: 30px;
-        object-fit: cover;
-    }
+        object-fit: cover;}
 
- #biblioteca {
+    #biblioteca {
         background-color: #011627;
-        padding-bottom: 170px;
-    }
-     
- 
-    #textbiblioteca {
+        padding-bottom: 180px;
+     padding-left: 8px;
+     padding-right: 8px;}
+
+
+
+
+    #textbiblioteca{
         color: #FDFFFC;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 60px;
-        font-weight: 1400;
-        padding: 15px 0px 0px 20px;
-        position: relative;
         text-align: center;
         position: relative;
-        margin-top: -380px;
+        margin-top: -400px;
+        margin-bottom: 60px;
+        font-size: 27px;
+        font-weight: 1480;
     }
- 
 
 
 
     #textbiblioteca_indirizzo {
+        text-align: center;
         position: relative;
         color: #FDFFFC;
         font-family: 'Montserrat', sans-serif;
         font-size: 25px;
-        margin: -90px 0px 0px 362px;
+        margin: -60px 0px 0px 0px;
     }
 
 
     #biblioteca_button {
+        text-align: center;
         position: relative;
         padding: 8px;
         margin: 40px 0px 15px 590px;
@@ -310,33 +312,31 @@ img.libro {
         }
 
  
-    #home {
-        font-size: 18px;
-          margin-left: -10px;
-
-    }
- 
-    /* #icona_biblioteca {
-        color:#fdfffc;
-        margin-top: -1px;
-        margin-left: -13px; 
-    } */
-    #biblioteca {
-        font-size: 18px;
-          margin-left: -14px;
- 
-    }
- 
-    /* #icona_chi-siamo {
-        margin-top: -2px;
-        margin-left: 14px;
-        margin-right: -12px;
-        color:#fdfffc;
-    } */
-    #chi-siamo {
-        font-size: 13px;
-       margin-left: -10px;
-    }
+        #home {
+            font-size: 19px;
+            margin: 0px 15px;
+        }
+        
+        /* #icona_biblioteca {
+            color:#fdfffc;
+            margin-top: -1px;
+            margin-left: -13px; 
+        } */
+        #biblioteca {
+            font-size: 19px;
+            margin: 0px 15px;
+        }
+        
+        /* #icona_chi-siamo {
+            margin-top: -2px;
+            margin-left: 14px;
+            margin-right: -12px;
+            color:#fdfffc;
+        } */
+        #chi-siamo {
+            font-size: 19px;
+         margin: 0px 15px;
+        }
     /*----------------------------*/
 
     #presentazione {
