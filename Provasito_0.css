@@ -461,7 +461,7 @@ img.libro {
         font-family: 'Montserrat', sans-serif;
         font-size: 15px;
         margin-top: -80px;
-        margin-bottom: 20px;
+        margin-bottom: 18px;
         position: relative;
     }
  
@@ -482,16 +482,31 @@ img.libro {
         position: relative;
         margin-left: 35%;
         margin-right: 30%;
-        margin-top: -2px; 
+        margin-top: 0px; 
         color: #011627;
     }
-
-
     #biblioteca_button :visited {
         color: #011627;
         text-decoration: none;
         }
    
+    #linksitocomune {
+        position: relative;
+        text-align: center;
+        padding: 5px 0px;
+        margin-bottom: 15px;
+
+        font-size: 28px;
+        background: #0116275b;
+        text-decoration: underline;
+        color:#FDFFFC;
+    }
+
+    #linksitocomune :visited {
+        color: #FDFFFC;
+        text-decoration: none;
+        }
+
 
     #chisiamo {
         margin-top: 120px;
