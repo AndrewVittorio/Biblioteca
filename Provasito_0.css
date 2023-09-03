@@ -231,29 +231,27 @@ img.libro {
     }
 
 
-    #biblioteca_button {
-        text-align: center;
-        align-items: center;
+    #linksitocomune {
         position: relative;
-        padding: 8px;
-        margin: 40px 0px 15px 606px;
-        color: black;
+        text-align: center;
+        padding: 12px 0px;
+        margin-bottom: 15px;
+
+        font-size: 42px;
+        background: #0116275b;
+        text-decoration: underline;
+        color:#FDFFFC;
     }
-    .biblioteca_button :visited{
+
+    #linksitocomune :visited {
+        color: #FDFFFC;
         text-decoration: none;
-        color: black;
-     }
+        }
 
     .biblioteca_button :hover {
         text-decoration: underline;
         color: black;
     }
-
-    .biblioteca_button :active {
-    text-decoration: none;
-    color: black;
-    }
-
 
 
 /*--------------------------------------------------------------------------------------------------------------------*/
@@ -476,19 +474,6 @@ img.libro {
 
     }
 
-
- 
-    #biblioteca_button {
-        position: relative;
-        margin-left: 35%;
-        margin-right: 30%;
-        margin-top: 0px; 
-        color: #011627;
-    }
-    #biblioteca_button :visited {
-        color: #011627;
-        text-decoration: none;
-        }
    
     #linksitocomune {
         position: relative;
@@ -508,10 +493,6 @@ img.libro {
         }
 
 
-    #chisiamo {
-        margin-top: 120px;
-    }
-
 
 }  
   
@@ -522,3 +503,5 @@ img.libro {
     color:#2EC4B6;
     color:#E71D36;
     color: #FF9F1C; */
+
+
