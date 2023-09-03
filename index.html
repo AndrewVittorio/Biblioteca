@@ -1,125 +1,507 @@
-<!doctype html>
-<html lang="it">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="Provasito_0.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-<title>MDSR?</title>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-</head>
-<body>
-<!--transition: all 0.2s ease 0.3s;-->
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Carter+One&family=Lilita+One&display=swap');
+ 
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 100px auto 0px;
+}
+a {
+    text-decoration: none;
+}
+
+
+.nav {
+    display: flex;
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: #011627;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    
+}
+ 
+.nav-link {
+    color: #FDFFFC;
+     justify-content: space-evenly;
+    font-size: 18px;
+    margin: 0px 1px;  
+}
+.nav-link :visited {
+color: #FDFFFC;
+text-decoration: none;
+}
+a:hover {
+color: #48acff; 
+}
+.nav-link :active {
+    color: antiquewhite; }
+
+#home {
+    font-size: 19px;
+    margin: 0px 145px;
+}
+
+/* #icona_biblioteca {
+    color:#fdfffc;
+    margin-top: -1px;
+    margin-left: -13px; 
+} */
+#biblioteca {
+    font-size: 19px;
+    margin: 0px 145px;
+}
+
+/* #icona_chi-siamo {
+    margin-top: -2px;
+    margin-left: 14px;
+    margin-right: -12px;
+    color:#fdfffc;
+} */
+#chi-siamo {
+    font-size: 19px;
+ margin: 0px 145px;
+}
+
+/*-----------------------*/
+ 
+.hero{
+        margin-top: 19px;
+        width: 100%;
+        opacity: 0.4;
+        max-height: 400px;
+        max-width: auto;
+        margin-bottom: 30px;
+        object-fit: cover;
+    }
+
+.titolo {
+    font-family: Carter One ;
+    text-align: center;
+    position: relative;
+    margin-top: -370px;
+    font-size: 80px;
+    font-weight: 1200;
+}
+
+#presentazione {
+    margin: 0px 30px 20px 30px;
+    text-align: center;
+}
+
+/*     */
+div#all {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    padding: 30px 30px;
+
+    background-color: #FDFFFC;
+}
+div#all div {
+    border-radius:  10px;
+    margin-bottom: 45px;
+}
+.domanda {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px;
+    padding-bottom: 0px;
+}
+
+.risposta {
+    text-align: center;
+    font-size: 17px;
+    font-weight: 700;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.libro {
+
+font-style: italic;
+margin-top: -5px;
+padding-left: 18px;
+}
+
+img.libro {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    height: 190px;
+}
+
+.mini_container {
+    width: 370px;
+}
+
+#c1 {
+    color: #FDFFFC;
+    background-color: #011627;
+    border-radius: 10px;
+    background-image: linear-gradient(to top right, #043c6d, #011627);
+    margin-top: -0px;
+    padding-bottom: 2px;
+}
+/*
+#elon {
+} */
+
+
+#c2 {
+    background-color: #2EC4B6;
+    padding-bottom: 2px;
+}
+
+#c3 {
+    background-color: #E71D36;
+    padding-bottom: 2px;
+}
+
+#c4 {
+    background-color: #FF9F1C;
+    padding-bottom: 2px;
+}
+
+#c5 {
+    background-color: #28f76d;
+    padding-bottom: 2px;
+}
+
+#c6 {
+    background-color: #8828f5;
+    padding-bottom: 2px;
+}
+
+
+/*----------------*/
+    /* BIBLIOTECA */
+    #introbiblioteca {
+        color: #011627;
+        border-top: 2px solid #011627;
+    }
+ 
+    #FotoBiblioteca{
+        margin-left: 0px;
+        margin-top: 19px;
+        width: 100%;
+        opacity: 0.3;
+        max-height: 400px;
+        max-width: auto;
+        margin-bottom: 30px;
+        object-fit: cover;}
+
+    #biblioteca {
+        background-color: #011627;
+        padding-bottom: 100px;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+
+
+    #textbiblioteca{
+        color: #FDFFFC;
+        text-align: center;
+        position: relative;
+        margin-top: -400px;
+        margin-bottom: 60px;
+        font-size: 45px;
+        font-weight: 1480;
+    }
+
+
+
+    #textbiblioteca_indirizzo {
+        text-align: center;
+        position: relative;
+        color: #FDFFFC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 32px;
+        margin: -60px 0px 0px 0px;
+    }
+
+
+    #linksitocomune {
+        position: relative;
+        text-align: center;
+        padding: 12px 0px;
+        margin-bottom: 15px;
+
+        font-size: 42px;
+        background: #0116275b;
+        text-decoration: underline;
+        color:#FDFFFC;
+    }
+
+    #linksitocomune :visited {
+        color: #FDFFFC;
+        text-decoration: none;
+        }
+
+    .biblioteca_button :hover {
+        text-decoration: underline;
+        color: black;
+    }
+
+
+/*--------------------------------------------------------------------------------------------------------------------*/
+
+/*come adattare il sito da computer a telefono*/
+@media screen and (max-width: 500px) {
+    
+    
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 48
+}
+ 
+    .titolo {
+        margin-top: -270px;
+        font-size: 50px;
+        font-weight: 400;
+    }
+    h2 {
+        text-align: center;
+        margin-top: 100px;
+    }
+    
+    
+    .nav {
+        z-index: 10000;
+        position: fixed;
+        top: 0px;
+        width: 100%;
+        background-color: #011627;
+        justify-content: space-around;
+    }
+    .hero{
+        margin-top: 19px;
+        width: 100%;
+        opacity: 0.4;
+        max-height: 400px;
+        max-width: auto;
+        margin-bottom: 30px;
+        object-fit: cover;
+        border-bottom: 2px solid #01162793;
+    }
+    .nav-link {
+        border: none;
+        color: #FDFFFC;
+        font-size: 18px;
+        margin: 0px 32px;  
+    }
+    .nav-link :visited {
+        text-decoration: none;
+        }
+    .nav-link :hover {
+        color: #48acff;
+        }
+    .nav-link :active {
+        color: #FDFFFC;
+        }
+
+ 
+        #home {
+            font-size: 19px;
+            margin: 0px 15px;
+        }
         
-<div class="menu">
-    <nav class="nav">
-    <!--  <a id="icona_home" class="nav-link material-symbols-outlined" href="#">home</a> -->
-        <a id="home" href="#" class="nav-link">Home</a>
-
-    <!--   <a id="icona_biblioteca" class="material-symbols-outlined" href="#">menu_book</a> -->
-        <a id="bibliotecaicona" href="#" class="nav-link">Biblioteca</a>
+        /* #icona_biblioteca {
+            color:#fdfffc;
+            margin-top: -1px;
+            margin-left: -13px; 
+        } */
+        #biblioteca {
+            font-size: 19px;
+            margin: 0px 15px;
+        }
         
-    <!--    <a id="icona_chi-siamo" class="material-symbols-outlined" href="#">group</a> -->
-        <a class="nav-link" id="chi-siamo" href="#">Noi</a>
-    </nav>
+        /* #icona_chi-siamo {
+            margin-top: -2px;
+            margin-left: 14px;
+            margin-right: -12px;
+            color:#fdfffc;
+        } */
+        #chi-siamo {
+            font-size: 19px;
+         margin: 0px 15px;
+        }
+    /*----------------------------*/
 
-    <img src="home.jpg" alt="">
-</div>
-
-<div id="hero">
-    <img class="hero" src="https://t3.ftcdn.net/jpg/02/66/33/90/360_F_266339022_WXAMVBMDBlGeO1cWeXOgkpzbnZR1ca4y.jpg" alt="punti">
-    <h1 class="titolo">Mille domande <br>senza una <br>risposta?</h1>
-</div>
-<br>
-<!-- Fine Prima parte (navbar, hero, titolo) -->
-
-<div id="presentazione">
-    <p>
-        La vita è un'avventura fatta di scelte e domande... <br><br>
-        I libri sono come guide che svelano risposte e prospettive inaspettate.
-        Leggendoli, esplori i tuoi pensieri, 
-        scoprendo idee preziose che illuminano le decisioni. <br>
-        I libri non sono solo compiti noiosi, 
-        ma un mondo di generi che potrebbero interessarti 
-        e arricchire la tua esperienza. 
-        Considerali come amici fidati che ti ispirano mentre navighi 
-        nella vita.</p>
-</div>
-
-<div id="all">
-
-    <div id="c1" class="mini_container">
-        <p class="domanda">Da grande voglio fare 
-        <span style="color:yellow; font:size 16px;">l'imprenditore</span>, <br>ma non so da dove iniziare(?)</p>
-        <img class="libro" id="elon" src="https://th.bing.com/th/id/R.cba29901fae67b4192499b2c64fe0c50?rik=lx8gQGf33jxJjQ&riu=http%3a%2f%2fmedia.hoeplieditore.it%2fcopertine%2fhoepli%2felon-musk-9788820381660.jpg&ehk=Ud64Mhwq1u%2bj6tQYHEhSjox9UpZ5Ggy3ABY1T2Ey0RY%3d&risl=&pid=ImgRaw&r=0" alt="libro">  
-        <p class="risposta">Allora leggi questo:</p>
-        <p class="libro">Elon Musk. Tesla, SpaceX e la sfida<br> per un futuro fantastico</p>   
-    </div>
-
-    <div id="c2" class="mini_container">
-        <p class="domanda" id="programmatore">Da grande voglio fare
-            <span style="color:darkblue;font-size: 17px"> il <br>programmatore </span> <br>ma non so come fare</p>
-            <img class="libro" id="bill" src="https://th.bing.com/th/id/R.d6ea71fd521de778ab65cbfc6d434712?rik=2mqp6EseduseSQ&pid=ImgRaw&r=0" alt="libro">
-            <p class="risposta">Allora leggi questo:</p>
-            <p class="libro">Bill Gates come ha creato Microsoft</p>   
-    </div>
-
-    <div id="c3" class="mini_container">
-        <p class="domanda" id="ristorante">Vorrei aprire un ristorante</p>
-        <img  class="libro" id="ercanna" src="https://th.bing.com/th/id/R.75efc99e39799576859e1af03f61141d?rik=z4aknWggdtAwjw&pid=ImgRaw&r=0" alt="libro">
-        <p class="risposta">Allora leggi questo:</p>
-        <p class="libro">Antonino Cannavacciuolo <br> A tavola si sta insieme</p>   
+    #presentazione {
+        margin: 28px 30px 70px 30px;
+        text-align: center;
+    }
     
-    </div>
 
-    <div id="c4" class="mini_container">
-        <p class="domanda" id="">Che senso ha la vita bro?</p>
-        <img class="libro" id="vita" src="https://th.bing.com/th/id/OIP.wuCD89uaOLZxDEn3JGW2-gAAAA?pid=ImgDet&rs=1" alt="">
-        <p class="risposta">Allora leggi questo:</p>
-        <p class="libro">Raymond Moody<br>La vita oltre la vita</p>   
+ 
+    div#all {
+        padding: 30px 30px;
+        background-color: #FDFFFC;
+    }
+    div#all div {
+        border-radius: 10px;
+        margin-bottom: 45px;
+    }
+    .domanda {
+        text-align: center;
+        font-size: 18px;
+        font-weight: 700;
+        padding: 16px;
+        padding-bottom: 0px;
+    }
+ 
+    .risposta {
+        font-size: 17px;
+        font-weight: 700;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+ 
+    .libro {
+    font-style: italic;
+    margin-top: -5px;
+    padding-left: 15px;
+    }
+
+    /*---------------*/
+   
+.mini_container { 
+    width: 100%;
+}
+
+    #c1 { 
+        min-width: 300px;
+        color: #FDFFFC;
+        background-color: #011627;
+        border-radius: 10px;
+        background-image: linear-gradient(to top right, #043c6d, #011627);
+        margin-top: -75px;
+        padding-bottom: 2px;
+    }
+    img.libro {
+        height: auto;
+        width: 35%;
+        float: center;
+        margin-left: 31%;
+    }
+
+    #elon {
+        float: none;
+    }
+
+    #c2 {
+        background-color: #2EC4B6;
+        padding-bottom: 2px;
+
+    }
     
-    </div>
-
-    <div id="c5" class="mini_container">
-        <p class="domanda" id="ristorante">Vorrei aprire un ristorante</p>
-        <img  class="libro" id="ercanna" src="https://th.bing.com/th/id/R.75efc99e39799576859e1af03f61141d?rik=z4aknWggdtAwjw&pid=ImgRaw&r=0" alt="libro">
-        <p class="risposta">Allora leggi questo:</p>
-        <p class="libro">Antonino Cannavacciuolo <br> A tavola si sta insieme</p>   
+    #c3 {
+        background-color: #E71D36;
+        padding-bottom: 2px;
+    }
     
-    </div>
-
-    <div id="c6" class="mini_container">
-        <p class="domanda" id="programmatore">Da grande voglio fare
-            <span style="color:rgb(248, 248, 248);font-size: 17px"> il <br>programmatore </span> <br>ma non so come fare</p>
-            <img class="libro" id="bill" src="https://th.bing.com/th/id/R.d6ea71fd521de778ab65cbfc6d434712?rik=2mqp6EseduseSQ&pid=ImgRaw&r=0" alt="libro">
-            <p class="risposta">Allora leggi questo:</p>
-            <p class="libro">Bill Gates come ha creato Microsoft</p>   
-    </div>
-
-</div>
-
-
-<div id="introbiblioteca">
-    <h3 id="TextIntroBiblioteca" style="text-align: center;">Tutte le risposte le trovi qua:</h3>
+    #c4 {
+        background-color: #FF9F1C;
+        padding-bottom: 2px;
+    }
     
-    <div id="biblioteca">
+    /*#c5 {
+        color: #FDFFFC;
+        background-color: #011627; 
+    */
+    
+ 
+    /*-------------------------------------*/
+    /* BIBLIOTECA */
+    #introbiblioteca {
+        color: #011627;
+        border-top: 2px solid #011627;
+    }
+ 
+    #biblioteca {
+        background-color: #011627;
+        padding-bottom: 20px;
+        margin-left: auto;
+        margin-right: auto;
 
-        <img src="https://tinyurl.com/4ydwb65t" id="FotoBiblioteca">
-        <p id="textbiblioteca"><span style="font-weight: 500;">Nella biblioteca comunale</span><br>
-        <span style="font-size: 30px; text-decoration: underline; font-weight: 800;">Iqbal Masih</span><br><br>
-        </p>
-    <p id="textbiblioteca_indirizzo">
-    📍 Via Viquarterio 1, Pieve Emanuele</p>
-    <p id="linksitocomune"><a href="https://www.comune.pieveemanuele.mi.it/servizi/Menu/dinamica.aspx?idSezione=616&idArea=16629&idCat=16973&ID=24498&TipoElemento=categoria">Scopri di più</a></p>
-<!--   <button id="biblioteca_button"><span class="biblioteca_button"><a href="https://www.comune.pieveemanuele.mi.it/servizi/Menu/dinamica.aspx?idSezione=616&idArea=16629&idCat=16973&ID=24498&TipoElemento=categoria">Scopri di più</span></button>
- -->   </div>
-</div>
+
+        }
+
+    
+    #FotoBiblioteca{
+        margin-bottom: 20px;
+        margin-top: 19px;
+        width: 100%;
+        opacity: 0.3;
+        height: 230px;
+    }
+
+     
+ 
+    #textbiblioteca_indirizzo {
+        text-align: center;
+        position: relative;
+        color: #FDFFFC;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        margin-top: -80px;
+        margin-bottom: 18px;
+        position: relative;
+    }
+ 
+
+    #textbiblioteca{
+        text-align: center;
+        position: relative;
+        margin-top: -215px;
+        margin-bottom: 60px;
+        font-size: 27px;
+        font-weight: 700;
+
+    }
+
+   
+    #linksitocomune {
+        position: relative;
+        text-align: center;
+        padding: 5px 0px;
+        margin-bottom: 15px;
+
+        font-size: 28px;
+        background: #0116275b;
+        text-decoration: underline;
+        color:#FDFFFC;
+    }
+
+    #linksitocomune :visited {
+        color: #FDFFFC;
+        text-decoration: none;
+        }
 
 
 
+}  
+  
+    /*-------------------------------------*/
+/*
+    color: #011627;
+    color: #FDFFFC;
+    color:#2EC4B6;
+    color:#E71D36;
+    color: #FF9F1C; */
 
-<!------------------------------------------------------------->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-</body>
-</html>
 
