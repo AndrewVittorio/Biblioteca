@@ -288,6 +288,7 @@ img.libro {
         justify-content: space-around;
     }
     .hero{
+        padding: 15px;
         margin-top: 19px;
         width: 100%;
         opacity: 0.4;
@@ -342,7 +343,7 @@ img.libro {
     /*----------------------------*/
 
     #presentazione {
-        margin: 28px 30px 70px 30px;
+        margin: 35px 30px 70px 30px;
         text-align: center;
     }
     
