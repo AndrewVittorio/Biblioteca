@@ -70,6 +70,7 @@ color: #48acff;
 /*-----------------------*/
  
 .hero{
+        padding-top: 10px;
         margin-top: 19px;
         width: 100%;
         opacity: 0.4;
