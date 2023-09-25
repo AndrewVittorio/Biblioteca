@@ -258,7 +258,7 @@ img.libro {
 
 @media screen and (max-width: 650px) {
     .titolo {
-        margin-top: -270px;
+        margin-top: -250px;
         font-size: 52px;
         font-weight: 400;
     }
@@ -276,7 +276,7 @@ img.libro {
 }
  
     .titolo {
-        margin-top: -290px;
+        margin-top: -270px;
         font-size: 50px;
         font-weight: 400;
     }
