@@ -288,7 +288,7 @@ img.libro {
         justify-content: space-around;
     }
     .hero{
-        padding: 15px;
+        padding-top: 10px;
         margin-top: 19px;
         width: 100%;
         opacity: 0.4;
