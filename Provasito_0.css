@@ -18,11 +18,9 @@ a {
     top: 0px;
     width: 100%;
     background-color: #011627;
-
     padding-top: 20px;
     padding-bottom: 20px;
     justify-content: center;
-    
 }
  
 .nav-link {
@@ -70,7 +68,7 @@ color: #48acff;
 /*-----------------------*/
  
 .hero{
-        margin-top: 30px;
+        margin-top: 70px;
         width: 100%;
         max-height: 400px;
         max-width: auto;
@@ -251,7 +249,12 @@ img.libro {
         text-decoration: underline;
         color: black;
     }
-
+@media screen and (max-width: 1000px) {
+ 
+    .hero {
+     margin-top: 30px;
+    }
+}
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
