@@ -70,7 +70,7 @@ color: #48acff;
 .hero{
         margin-top: 70px;
         width: 100%;
-        max-height: 400px;
+        max-height: 450px;
         max-width: auto;
         margin-bottom: 30px;
         object-fit: cover;
@@ -512,5 +512,4 @@ img.libro {
     color:#2EC4B6;
     color:#E71D36;
     color: #FF9F1C; */
-
 
