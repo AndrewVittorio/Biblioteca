@@ -86,7 +86,7 @@ color: #48acff;
 }
 
 #presentazione {
-    margin: 15px 30px 15px 30px;
+    margin: 40px 30px 20px 30px;
     text-align: center;
 }
 
@@ -249,10 +249,8 @@ img.libro {
         text-decoration: underline;
         color: black;
     }
-
-/*--------------------------------------------------------------------------------------------------------------------*/
 @media screen and (max-width: 1000px) {
-
+ 
     .hero {
      margin-top: 30px;
     }
@@ -514,4 +512,3 @@ img.libro {
     color:#2EC4B6;
     color:#E71D36;
     color: #FF9F1C; */
-
