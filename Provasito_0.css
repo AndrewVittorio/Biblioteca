@@ -249,22 +249,9 @@ img.libro {
         text-decoration: underline;
         color: black;
     }
-@media screen and (max-width: 1000px) {
- 
-    .hero {
-     margin-top: 30px;
-    }
-}
 
 /*--------------------------------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 650px) {
-    .titolo {
-        margin-top: -250px;
-        font-size: 52px;
-        font-weight: 400;
-    }
-}
 
 /*come adattare il sito da computer a telefono*/
 @media screen and (max-width: 500px) {
