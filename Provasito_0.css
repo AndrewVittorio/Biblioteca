@@ -289,7 +289,7 @@ img.libro {
         width: 100%;
         max-height: 400px;
         max-width: auto;
-        margin-bottom: 10px;
+        margin-bottom: 5px;
         object-fit: cover;
         border-bottom: 2px solid #01162793;
     }
@@ -338,7 +338,7 @@ img.libro {
     /*----------------------------*/
 
     #presentazione {
-        margin: 10px 30px 70px 30px;
+        margin: 0px 30px 70px 30px;
         text-align: center;
     }
     
