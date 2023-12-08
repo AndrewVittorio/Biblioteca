@@ -488,7 +488,9 @@ img.libro {
         text-decoration: none;
         }
 
-
+    .biblioteca_button :hover {
+        text-decoration: underline;
+        color: white;
 
 }  
   
